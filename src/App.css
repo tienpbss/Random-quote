@@ -1,38 +1,29 @@
-.App {
-  text-align: center;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    background-image: url('./images/vertical-long-exposure-shot-seascape-guernsey-during-sunset_181624-31802.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    font-family: sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.pt-6 {
+    padding-top: 6rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+/* .card {
+    width: 600px;
+    height: 300px;
+    background-color: gray;
+} */
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* .quote {
+    font-size: 28px;
+} */
